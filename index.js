@@ -27,12 +27,12 @@ async function getBalance() {
   if (typeof window.ethereum != "undefined") {
     const provider = new ethers.providers.Web3Provider(window.ethereum)
     const balance = await provider.getBalance(contractAddress)
-    console.log(ethers.utils.formatEther(balance))
+    console.log(`Contract Balance is ${ethers.utils.formatEther(balance)}ETH`)
   }
 }
 async function fund() {
   const ethAmount = document.getElementById("ethAmount").value
-  console.log(`Funding with ${ethAmount}...`)
+  console.log(`Funding Contract with ${ethAmount}...`)
   if (typeof window.ethereum !== "undefined") {
     const provider = new ethers.providers.Web3Provider(window.ethereum)
     const signer = provider.getSigner()
