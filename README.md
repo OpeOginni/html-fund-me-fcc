@@ -3,8 +3,7 @@
 1. Clone the repo
 
 ```
-git clone https://github.com/PatrickAlphaC/html-fund-me-fcc
-cd html-fund-me-fcc
+git clone https:https://github.com/OpeOginni/html-fund-me-fcc
 ```
 
 2. Run the file.
@@ -22,8 +21,6 @@ yarn http-server
 
 And you should see a small button that says "connect".
 
-![Connect](connect.png)
-
 Hit it, and you should see metamask pop up.
 
 # Execute a transaction
@@ -35,7 +32,7 @@ Make sure you have the following installed:
 1. You'll need to open up a second terminal and run:
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
+git clone https:https://github.com/OpeOginni/html-fund-me-fcc
 cd hardhat-fund-me-fcc
 yarn
 yarn hardhat node
